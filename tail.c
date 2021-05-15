@@ -3,7 +3,7 @@
 #include "user.h"
 #include "fcntl.h"
 
-char buf [1024];
+char buf [1028];
 
 void tail (int fd, char *name, int line) {
   int i, n;  //here the size of the read chunk is defined by n, and i is used to keep a track of the chunk index
